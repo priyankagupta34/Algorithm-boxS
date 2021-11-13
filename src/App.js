@@ -35,6 +35,7 @@ export default function App() {
       <div className="divg">
         <div>Let's Dive in the beautiful world of algorithms</div>
       </div>
+      <div className="inlk">in</div>
       <Algo />
     </div>
   );
