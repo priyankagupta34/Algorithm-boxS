@@ -12,7 +12,7 @@
         "info": "Use interface to define javascript object, and those objects that are defined are only going to be used, if you want to add more property after creating interface, you can do it directly, it will throw error",
         "link": [
           {
-            "title": "Interface Declaration",
+            "title": "Javascript to Typescript",
             "href": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
           }
         ],

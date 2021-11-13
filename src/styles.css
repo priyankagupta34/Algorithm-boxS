@@ -60,14 +60,15 @@ body {
 
 .aGre {
   background: white;
-  padding: 7px 5px;
+  padding: 1px 4px;
   font-weight: 500;
   color: blue;
   text-decoration: none;
-  box-shadow: 2px 2px 5px #999696;
+  box-shadow: 2px 2px 3px #999696;
   border-radius: 4px;
   cursor: pointer;
   white-space: nowrap;
+  font-size: 0.9em;
 }
 
 .desrim {
