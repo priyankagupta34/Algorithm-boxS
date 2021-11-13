@@ -35,7 +35,14 @@ export default function App() {
       <div className="divg">
         <div>Let's Dive in the beautiful world of algorithms</div>
       </div>
-      <div className="inlk">in</div>
+      <a
+        className="inlk"
+        href="https://www.linkedin.com/in/priancaa/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        in
+      </a>
       <Algo />
     </div>
   );
