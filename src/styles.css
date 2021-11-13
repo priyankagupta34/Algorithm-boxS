@@ -9,7 +9,7 @@
 *::before {
   box-sizing: border-box;
   transition: 0.5s;
-  line-height: 33px;
+  line-height: 20px;
 }
 
 body {
@@ -71,7 +71,7 @@ body {
 }
 
 .desrim {
-  max-width: 48%;
+  max-width: 60%;
   display: block;
   box-shadow: 3px 3px 13px grey;
   border-radius: 4px;

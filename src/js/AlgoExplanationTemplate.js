@@ -27,6 +27,7 @@ export default function AlgoExplanationTemplate({ algo }) {
                   {desc.link[0].title}
                 </a>
               )}
+              {/*  description image */}
               {desc.img.length !== 0 && (
                 <img
                   onClick={() =>
@@ -43,6 +44,7 @@ export default function AlgoExplanationTemplate({ algo }) {
             </div>
           ))}
 
+          {/*  one main image */}
           {algo.mainImg && (
             <>
               <img
@@ -58,6 +60,8 @@ export default function AlgoExplanationTemplate({ algo }) {
               />
             </>
           )}
+
+          {/* Many small images */}
           <div className="imgbox">
             {algo.imgs.map((img, index) => (
               <img
