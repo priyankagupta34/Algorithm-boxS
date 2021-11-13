@@ -1,2 +1,2 @@
-# Algorithm-boxS
+# Algorithm-box
 Created with CodeSandbox

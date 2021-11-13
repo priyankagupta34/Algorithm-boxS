@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ex4",
+    "name": "Typescript Handbook",
+    "description": [
+      {
+        "info": "The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).",
+        "link": [],
+        "img": []
+      },
+      {
+        "info": "Use interface to define javascript object, and those objects that are defined are only going to be used, if you want to add more property after creating interface, you can do it directly, it will throw error",
+        "link": [
+          {
+            "title": "Interface Declaration",
+            "href": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+          }
+        ],
+        "img": []
+      },
+      {
+        "info": "Unions (|) provide a way to handle different types too.",
+        "link": [],
+        "img": ["imgs/tsunion.png"]
+      }
+    ],
+    "proof": "",
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
+    "id": "ex3",
+    "name": "Trie, basic population and little backtracking",
+    "description": [
+      {
+        "info": "It's a huge dictionary which accomodate entire word or sentence. Literally best way to find any commonly starting word",
+        "link": [],
+        "img": []
+      }
+    ],
+    "proof": "",
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "imgs/trie.png",
+    "complexity": "Not much info"
+  },
+  {
+    "id": "ex1",
+    "name": "Bit Manipulation - Basics usecases of AND, OR, XOR",
+    "description": [
+      {
+        "info": "It's more than amazing if you know what you are doing, working on bit instead of decimals is of direct use and it's super fast.",
+        "link": [],
+        "img": []
+      },
+      {
+        "info": "For few things like find even/odd, divide/multiply by 2, everything is amazingly useful",
+        "link": [],
+        "img": []
+      }
+    ],
+    "proof": "",
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "imgs/bm.png",
+    "complexity": "Not much info"
+  },
+  {
+    "id": "ex2",
+    "name": "String/Array Includes",
+    "description": [
+      {
+        "info": "Saving information in string is easy, it's 'string'.includes('search something') is O(0), no matter how many times you do, even in loop it's staight zero after running through all. Very helpful. However same is not true for [].includes(''), it's o(N) where N is the length of array",
+        "link": [],
+        "img": []
+      }
+    ],
+    "proof": "\nfunction test(n){\nn = n.split(''); \nconst a = performance.now(); \nn.includes('0');  \nn.includes('0');  \nn.includes('0');  \nn.includes('0');  \nn.includes('0');  \nn.includes('0'); \nconst b = performance.now(); \nreturn b-a;} \nTime complexity for using it as 3.2000000178813934  \nTime complexity for using just for string includes is 0 which is constant which means below function is: \nfunction test(n){\n const a = performance.now();\n n.includes('0');\n   n.includes('0');\nn.includes('0');\n    n.includes('0');\n    n.includes('0');\n    n.includes('0');\n    const b = performance.now();\n    return b-a;}\nResult is constant",
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": ["imgs/arry.png", "imgs/str.png"],
+    "mainImg": "",
+    "complexity": "O(1) for includes in string and O(N) for includes in array"
+  }
+]

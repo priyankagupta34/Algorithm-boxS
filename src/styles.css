@@ -1,0 +1,110 @@
+.App {
+  font-family: "Raleway", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  transition: 0.5s;
+  line-height: 33px;
+}
+
+body {
+  margin: 0;
+}
+
+.divg {
+  background: #2c4672;
+  text-align: center;
+  font-size: 2.1em;
+  color: #90bde5;
+  margin: 0 auto;
+  padding: 52px 20px;
+  box-shadow: 0 4px 10px grey;
+  margin-bottom: 20px;
+}
+/* .divg::after {
+  content: "";
+  height: 1px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 0 1px blueviolet;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+} */
+
+.targa {
+  text-align: center;
+  margin: 40px;
+  margin-bottom: 0;
+}
+
+.voinp {
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 1px 0px 6px rgb(165 163 163);
+  border: 1px solid rgb(183, 183, 185);
+  border-radius: 4px;
+  width: 317px;
+  outline: none;
+}
+
+.voinp:focus {
+  box-shadow: 0 4px 10px grey;
+}
+
+.aGre {
+  background: white;
+  padding: 7px 5px;
+  font-weight: 500;
+  color: blue;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px #999696;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.desrim {
+  max-width: 48%;
+  display: block;
+  box-shadow: 3px 3px 13px grey;
+  border-radius: 4px;
+}
+
+.imgM {
+  width: 95%;
+  /* background: #6a6666; */
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 14px 3px black;
+  background: #2c4672;
+}
+
+.model {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #000000a3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.vimodel {
+  text-align: center;
+}
+.cgh {
+  /* font-size: 0.7em; */
+  margin: -10px;
+  color: white;
+  /* text-align: left; */
+  margin-left: 20px;
+  font-style: italic;
+}
