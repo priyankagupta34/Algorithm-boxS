@@ -9,7 +9,7 @@
 *::before {
   box-sizing: border-box;
   transition: 0.5s;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 body {
@@ -59,16 +59,20 @@ body {
 }
 
 .aGre {
-  background: white;
+  /* background: white; */
   padding: 1px 4px;
   font-weight: 500;
   color: blue;
   text-decoration: none;
-  box-shadow: 2px 2px 3px #999696;
+
   border-radius: 4px;
   cursor: pointer;
   white-space: nowrap;
   font-size: 0.9em;
+}
+
+.aGre:hover {
+  box-shadow: 2px 2px 3px #999696;
 }
 
 .desrim {
@@ -80,21 +84,21 @@ body {
 }
 
 .imgM {
-  width: 95%;
+  /* width: 70%; */
   /* background: #6a6666; */
   padding: 8px;
   border-radius: 5px;
   box-shadow: 2px 2px 14px 3px black;
   background: #2c4672;
   height: auto;
-  max-width: 77vw;
+  max-width: 95vw;
 }
 
 .model {
   position: fixed;
   top: 0;
   bottom: 0;
-  background: #000000a3;
+  background: #000000c4;
   width: 100vw;
   height: 100vh;
   display: flex;
