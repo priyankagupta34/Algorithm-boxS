@@ -77,11 +77,11 @@ body {
 }
 
 .desrim {
-  max-width: 60%;
   display: block;
   box-shadow: 3px 3px 13px grey;
   border-radius: 4px;
   margin-top: 10px;
+  max-width: 34vw;
 }
 
 .imgM {
@@ -119,4 +119,12 @@ body {
   /* text-align: left; */
   margin-left: 20px;
   font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .desrim {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+  }
 }

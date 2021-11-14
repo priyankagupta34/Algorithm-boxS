@@ -4,14 +4,44 @@
     "name": "Bluebird",
     "description": [
       {
-        "info": "Returns a new function that returns a new promise instead of using callback",
+        "info": "Promisify: Returns a new function that returns a new promise instead of using callback",
         "link": "",
-        "img": ["imgs/bb1.png"]
+        "img": ["imgs/bb2.png"]
       },
       {
         "info": "Used on an error-first callback function",
         "link": "",
         "img": []
+      },
+      {
+        "info": "PromisifyAll: It's a way of promisifying all async functions present in library instead of manually promisifying each of them",
+        "link": "",
+        "img": ["imgs/bb3.png"]
+      },
+      {
+        "info": "Promise.bind: This is similar to function.prototype.bind, only that it creates a promise function that binds to this",
+        "link": "",
+        "img": ["imgs/bb4.png"]
+      },
+      {
+        "info": "Promise.All: Let's us provide an array of promise, then using spread function, we will get their resolution in the sequence of promise in array. spread function generally flattens the array but suppose if we dont want to use this then result is going to be an array",
+        "link": "",
+        "img": ["imgs/bb5.png"]
+      },
+      {
+        "info": "Promis.join: Very similar to Promise.all, if you have a set number of promises and you want to pass then directly as parameter and not push in array, then u will get result respecitively. I am much better performant than promise.all.",
+        "link": "",
+        "img": ["imgs/bb6.png"]
+      },
+      {
+        "info": "Promise.map: Allows you to work on array with less biolerplatecode.",
+        "link": "",
+        "img": ["imgs/bb7.png"]
+      },
+      {
+        "info": "Promise.map: It also has one more advantage of controlling array length to be given. Let's say api server allows only 10 items in one go then using concruency we can take care of it. When those 10 are resolved then next 10 will be sent",
+        "link": "",
+        "img": ["imgs/bb8.png"]
       }
     ],
     "proof": "",
@@ -19,10 +49,10 @@
     "linksToGoodArticleAndVideo": [
       {
         "title": "Youtube link to Bluebird tutorial",
-        "href": "https://www.youtube.com/watch?v=6jpUE4Jg4pk"
+        "href": "https://www.youtube.com/watch?v=hQxFymzhT3A"
       }
     ],
-    "imgs": ["imgs/bb2.png"],
+    "imgs": [],
     "mainImg": "",
     "complexity": "Ignore"
   },

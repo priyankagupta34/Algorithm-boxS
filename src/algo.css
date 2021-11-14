@@ -35,7 +35,7 @@
 
 .vok {
   margin: 29px;
-  text-align: justify;
+  text-align: left;
   background: white;
   padding: 20px;
   box-shadow: 0 3px 6px grey, 4px 5px 6px lightgrey;
@@ -57,8 +57,8 @@
 }
 
 .imgbox {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .imgA {
@@ -69,9 +69,10 @@
 }
 
 .imgV {
-  width: 43%;
+  width: 93%;
   margin: 1%;
   box-shadow: 2px 2px 8px grey;
+  border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -110,4 +111,15 @@
 .spin {
   transform: rotate(148deg);
   /* transition: 0.5s; */
+}
+
+@media only screen and (max-width: 600px) {
+  .imgbox {
+    grid-template-columns: 1fr;
+  }
+
+  .imgV {
+    width: 73vw;
+    margin: 5px auto;
+  }
 }
