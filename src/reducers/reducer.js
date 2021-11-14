@@ -2,7 +2,8 @@ const initialState = {
   search: "",
   allDefs: [],
   model_open: false,
-  model_src: ""
+  model_src: "",
+  rotate_img: "0"
 };
 
 export default function reducer(prevState = initialState, { type, payload }) {
@@ -21,7 +22,13 @@ export default function reducer(prevState = initialState, { type, payload }) {
       return {
         ...prevState,
         model_open: !prevState.model_open,
-        model_src: payload
+        model_src: payload,
+        rotate_img: "0"
+      };
+    case "ROTATE_IMAGE":
+      return {
+        ...prevState,
+        rotate_img: prevState.rotate_img === "0" ? "90" : "0"
       };
     default:
       return { ...prevState };

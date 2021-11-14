@@ -4,6 +4,10 @@
   overflow: unset !important;
 }
 
+.flex {
+  display: flex;
+}
+
 *,
 *::after,
 *::before {
@@ -85,14 +89,14 @@ body {
 }
 
 .imgM {
-  /* width: 70%; */
+  width: 90vh;
   /* background: #6a6666; */
-  padding: 8px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 14px 3px black;
+  /* padding: 8px; */
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 1px black, 0px 0px 7px 2px black;
   background: #2c4672;
   height: auto;
-  max-width: 95vw;
+  /* max-width: 95%; */
 }
 
 .model {
@@ -114,14 +118,37 @@ body {
 }
 .cgh {
   /* font-size: 0.7em; */
-  margin: -10px;
+  margin: 0 auto;
   color: white;
   /* text-align: left; */
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-style: italic;
+  position: absolute;
+  bottom: 2vh;
+  left: 5%;
+  display: flex;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+.degf {
+  font-weight: 100;
+  margin-left: 10px;
+  font-size: 2em;
+  color: #0f7ad9;
+  background: aliceblue;
+  padding: 2px;
+  border-radius: 4px;
+  line-height: 15px;
+  text-shadow: 0 0 2px #06435a;
+  box-shadow: 1px 1px 4px 2px #857e7e;
+  cursor: pointer;
+}
+
+.degf:hover {
+  text-shadow: none;
+}
+
+@media only screen and (max-width: 800px) {
   .desrim {
     max-width: 62vw;
     display: flex;
