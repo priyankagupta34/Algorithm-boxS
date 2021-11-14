@@ -90,6 +90,7 @@ body {
 
 .imgM {
   width: 90vh;
+  display: block;
   /* background: #6a6666; */
   /* padding: 8px; */
   border-radius: 7px;
@@ -124,10 +125,10 @@ body {
   /* margin-left: 20px; */
   font-style: italic;
   position: absolute;
-  bottom: 2vh;
+  top: 2vh;
   left: 5%;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .degf {
