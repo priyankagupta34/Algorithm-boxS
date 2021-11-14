@@ -33,7 +33,7 @@ export default function App() {
     >
       <AlgoImgModel />
       <div className="divg">
-        <div>Let's Dive in the beautiful world of algorithms</div>
+        Let's Dive in the beautiful world of algorithms
       </div>
       <a
         className="inlk"

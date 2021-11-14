@@ -1,5 +1,32 @@
 [
   {
+    "id": "ex5",
+    "name": "Bluebird",
+    "description": [
+      {
+        "info": "Returns a new function that returns a new promise instead of using callback",
+        "link": "",
+        "img": ["imgs/bb1.png"]
+      },
+      {
+        "info": "Used on an error-first callback function",
+        "link": "",
+        "img": []
+      }
+    ],
+    "proof": "",
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [
+      {
+        "title": "Youtube link to Bluebird tutorial",
+        "href": "https://www.youtube.com/watch?v=6jpUE4Jg4pk"
+      }
+    ],
+    "imgs": [],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
     "id": "ex4",
     "name": "Typescript Handbook",
     "description": [
