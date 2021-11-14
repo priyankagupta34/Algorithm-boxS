@@ -1,5 +1,30 @@
 [
   {
+    "id": "ex7",
+    "name": "Linkedlist saving way to permutation",
+    "description": [],
+    "linksToLeetcodeQues": [
+      {
+        "title": "Iterator for Combination",
+        "link": "https://leetcode.com/problems/iterator-for-combination/"
+      }
+    ],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "imgs/ll1.png",
+    "complexity": "O(2^N)"
+  },
+  {
+    "id": "ex6",
+    "name": "Getting indexwise permutations using backtrack and bit manipulation",
+    "description": [],
+    "linksToLeetcodeQues": [{ "title": "", "link": "" }],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": ["imgs/bm1.png"],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
     "id": "ex5",
     "name": "Bluebird",
     "description": [
