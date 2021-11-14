@@ -18,11 +18,16 @@
     "id": "ex6",
     "name": "Getting indexwise permutations using backtrack and bit manipulation",
     "description": [],
-    "linksToLeetcodeQues": [{ "title": "", "link": "" }],
+    "linksToLeetcodeQues": [
+      {
+        "title": "Combinations",
+        "link": "https://leetcode.com/problems/combinations/"
+      }
+    ],
     "linksToGoodArticleAndVideo": [],
-    "imgs": ["imgs/bm1.png"],
+    "imgs": ["imgs/bm1.png", "imgs/bm2.png"],
     "mainImg": "",
-    "complexity": "Ignore"
+    "complexity": "O(2^N)"
   },
   {
     "id": "ex5",
