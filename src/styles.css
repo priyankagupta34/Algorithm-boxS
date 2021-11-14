@@ -123,8 +123,9 @@ body {
 
 @media only screen and (max-width: 600px) {
   .desrim {
-    max-width: 70vw;
+    max-width: 62vw;
     display: flex;
     justify-content: center;
+    margin: 10px auto;
   }
 }
