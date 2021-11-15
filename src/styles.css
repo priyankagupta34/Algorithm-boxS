@@ -85,7 +85,8 @@ body {
   box-shadow: 3px 3px 13px grey;
   border-radius: 4px;
   margin-top: 10px;
-  max-width: 34vw;
+  /* max-width: 34vw; */
+  max-height: 15vh;
 }
 
 .imgM {
@@ -97,6 +98,8 @@ body {
   box-shadow: 0px 0px 10px 1px black, 0px 0px 7px 2px black;
   background: #2c4672;
   height: auto;
+  /* max-width: 95%; */
+  max-height: 95%;
   /* max-width: 95%; */
 }
 
