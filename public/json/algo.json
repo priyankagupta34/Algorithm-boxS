@@ -1,17 +1,57 @@
 [
   {
+    "id": "ex9",
+    "name": "NextJs",
+    "description": [
+      {
+        "info": "By default, Next.js pre-renders every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.\n\nEach generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)",
+        "link": [
+          {
+            "title": "Page",
+            "href": "https://nextjs.org/docs/basic-features/pages"
+          }
+        ],
+        "img": []
+      }
+    ],
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
+    "id": "ex8",
+    "name": "Breadth for search",
+    "description": [],
+    "linksToLeetcodeQues": [
+      {
+        "title": "Maximum Depth of N-ary Tree",
+        "href": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/"
+      },
+      {
+        "title": "Maximum Depth of Binary Tree",
+        "href": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+      }
+    ],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": ["imgs/bfs1.png", "imgs/bfs2.png"],
+    "mainImg": "",
+    "complexity": "O(2^N)"
+  },
+  {
     "id": "ex7",
     "name": "Linkedlist saving way to permutation",
     "description": [],
     "linksToLeetcodeQues": [
       {
         "title": "Iterator for Combination",
-        "link": "https://leetcode.com/problems/iterator-for-combination/"
+        "href": "https://leetcode.com/problems/iterator-for-combination/"
       }
     ],
     "linksToGoodArticleAndVideo": [],
-    "imgs": [],
-    "mainImg": "imgs/ll1.png",
+    "imgs": ["imgs/ll1.png"],
+    "mainImg": "",
     "complexity": "O(2^N)"
   },
   {
@@ -21,7 +61,7 @@
     "linksToLeetcodeQues": [
       {
         "title": "Combinations",
-        "link": "https://leetcode.com/problems/combinations/"
+        "href": "https://leetcode.com/problems/combinations/"
       }
     ],
     "linksToGoodArticleAndVideo": [],
@@ -35,42 +75,42 @@
     "description": [
       {
         "info": "Promisify: Returns a new function that returns a new promise instead of using callback",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb2.png"]
       },
       {
         "info": "Used on an error-first callback function",
-        "link": "",
+        "link": [],
         "img": []
       },
       {
         "info": "PromisifyAll: It's a way of promisifying all async functions present in library instead of manually promisifying each of them",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb3.png"]
       },
       {
         "info": "Promise.bind: This is similar to function.prototype.bind, only that it creates a promise function that binds to this",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb4.png"]
       },
       {
         "info": "Promise.All: Let's us provide an array of promise, then using spread function, we will get their resolution in the sequence of promise in array. spread function generally flattens the array but suppose if we dont want to use this then result is going to be an array",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb5.png"]
       },
       {
         "info": "Promis.join: Very similar to Promise.all, if you have a set number of promises and you want to pass then directly as parameter and not push in array, then u will get result respecitively. I am much better performant than promise.all.",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb6.png"]
       },
       {
         "info": "Promise.map: Allows you to work on array with less biolerplatecode.",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb7.png"]
       },
       {
         "info": "Promise.map: It also has one more advantage of controlling array length to be given. Let's say api server allows only 10 items in one go then using concruency we can take care of it. When those 10 are resolved then next 10 will be sent",
-        "link": "",
+        "link": [],
         "img": ["imgs/bb8.png"]
       }
     ],

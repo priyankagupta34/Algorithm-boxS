@@ -22,7 +22,7 @@ export default function AlgoImgModel() {
           className="imgM"
           style={{
             transform: `rotate(${rotate_img}deg)`,
-            width: `${rotate_img === "90" ? "82vh" : "96vw"}`
+            width: `${rotate_img === "90" ? "82vh" : "85vw"}`
           }}
           src={model_src}
           alt="Algo"
