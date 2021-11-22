@@ -1,6 +1,27 @@
 [
   {
     "id": "ex9",
+    "name": "Seach Engine Optimization",
+    "description": [
+      {
+        "info": "if SEO is your priority, typically when you are building a blog site and you want everyone who searching on google go to your website, then SSR is your choice.",
+        "link": [
+          {
+            "title": "Difference between SSR and CSR",
+            "href": "https://dev.to/alain2020/ssr-vs-csr-2617"
+          }
+        ],
+        "img": []
+      }
+    ],
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [],
+    "imgs": [],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
+    "id": "ex9",
     "name": "NextJs",
     "description": [
       {
