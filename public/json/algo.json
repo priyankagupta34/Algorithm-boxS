@@ -7,11 +7,31 @@
         "info": "By default, Next.js pre-renders every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.\n\nEach generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)",
         "link": [
           {
-            "title": "Page",
-            "href": "https://nextjs.org/docs/basic-features/pages"
+            "title": "Pre-Rendering",
+            "href": "https://nextjs.org/docs/basic-features/pages#pre-rendering"
           }
         ],
         "img": []
+      },
+      {
+        "info": "Next.js has two forms of pre-rendering: Static Generation and Server-side Rendering. The difference is in when it generates the HTML for a page.\n\nStatic Generation (Recommended): The HTML is generated at build time and will be reused on each request.\nServer-side Rendering: The HTML is generated on each request.\n\nImportantly, Next.js lets you choose which pre-rendering form you'd like to use for each page. You can create a 'hybrid' Next.js app by using Static Generation for most pages and using Server-side Rendering for others.",
+        "link": [
+          {
+            "title": "Two forms of pre rendering",
+            "href": "https://nextjs.org/docs/basic-features/pages#two-forms-of-pre-rendering"
+          }
+        ],
+        "img": []
+      },
+      {
+        "info": "SWR(stale-while-revalidate): The team behind Next.js has created a React hook for data fetching called SWR. We highly recommend it if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more. And you can use it like so:",
+        "link": [
+          {
+            "title": "SWR",
+            "href": "https://nextjs.org/docs/basic-features/data-fetching#swr"
+          }
+        ],
+        "img": ["imgs/nx1.png"]
       }
     ],
     "linksToLeetcodeQues": [],
