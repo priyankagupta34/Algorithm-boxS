@@ -37,6 +37,26 @@
           }
         ],
         "img": ["imgs/nx1.png"]
+      },
+      {
+        "info": "Recommended using Static Generation (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.\nYou can use Static Generation for many types of pages, including: \n\nMarketing pages\nBlog posts and portfolios\nE-commerce product listings\nHelp and documentation",
+        "link": [
+          {
+            "title": "When to use static generation",
+            "href": "https://nextjs.org/docs/basic-features/pages#when-should-i-use-static-generation"
+          }
+        ],
+        "img": []
+      },
+      {
+        "info": "Some pages require fetching external data for pre-rendering. There are two scenarios, and one or both might apply. In each case, you can use these functions that Next.js provides:\n\nYour page content depends on external data: Use getStaticProps.\nYour page paths depend on external data: Use getStaticPaths (usually in addition to getStaticProps).",
+        "link": [
+          {
+            "title": "",
+            "href": "https://nextjs.org/docs/basic-features/pages#static-generation-with-data"
+          }
+        ],
+        "img": []
       }
     ],
     "linksToLeetcodeQues": [],
