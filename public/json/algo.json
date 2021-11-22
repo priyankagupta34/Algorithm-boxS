@@ -24,6 +24,11 @@
         "img": []
       },
       {
+        "info": "The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by HTTP RFC 5861. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.\n\nWith SWR, components will get a stream of data updates constantly and automatically.\nAnd the UI will be always fast and reactive.",
+        "link": [{ "title": "SWR: main", "href": "https://swr.vercel.app/" }],
+        "img": []
+      },
+      {
         "info": "SWR(stale-while-revalidate): The team behind Next.js has created a React hook for data fetching called SWR. We highly recommend it if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more. And you can use it like so:",
         "link": [
           {
