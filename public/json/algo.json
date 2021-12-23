@@ -1,5 +1,31 @@
 [
   {
+    "id": "ex11",
+    "name": "Messaging protocols",
+    "description": [
+      {
+        "info": "UDP: User datagram protocol: It is fire and forget protocol as there is no gurantee if data will be reached completely or not or even in same order, which is why it is way faster than UDP",
+        "link": [],
+        "img": []
+      },
+      {
+        "info": "TCP - Transfer Control Protocol: It happens only after a connection called handshake",
+        "link": [],
+        "img": []
+      }
+    ],
+    "linksToLeetcodeQues": [],
+    "linksToGoodArticleAndVideo": [
+      {
+        "title": "Video link to undestand difference between TCP and UDP",
+        "href": "https://www.youtube.com/watch?v=uwoD5YsGACg"
+      }
+    ],
+    "imgs": [],
+    "mainImg": "",
+    "complexity": "Ignore"
+  },
+  {
     "id": "ex10",
     "name": "Seach Engine Optimization",
     "description": [
